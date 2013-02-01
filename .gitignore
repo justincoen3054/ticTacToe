@@ -1,13 +1,12 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+#include <iostream>
+#include "game.h"
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+using namespace std;
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+int main()
+{
+    game g;
+    g.initalize();
+    g.run();
+    return 0;
+}
